@@ -52,4 +52,8 @@ a specified price (e.g. 55.0). Don’t worry what units that is in.
 ## Solution / Development Flow:
 
 1. As per the Domain-Driven Design, modelled the entities 'Stock' and 'Order' and followed the TDD to create unit test / entity / test data
-2. 
+2. StockFeedObservableTest and TradingStrategyTest are key to understand the end to end flow
+3. In this flow, it tests the @PriceSource and @PriceListener to check the price change monitoring and price change update
+4. In the  TradingStrategyTest, it tests the trader orders or executed as per the trade rule (order filer predicate based on the price change)
+5. All the end to end flow is validated and  verified with less coverage 
+6. Exception, edge case, quality and more refactoring should be done however due to timeline it is not taken care 
