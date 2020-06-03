@@ -48,3 +48,8 @@ a specified price (e.g. 55.0). Don’t worry what units that is in.
 * Mockito
 * EasyMock
 * JMock
+
+## Solution / Development Flow:
+
+1. As per the Domain-Driven Design, modelled the entities 'Stock' and 'Order' and followed the TDD to create unit test / entity / test data
+2. 
